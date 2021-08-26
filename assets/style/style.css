@@ -108,14 +108,13 @@ input{
 }
 
 .small-pictures{
-    align-items: center;
-    justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    align-items: baseline;
     gap: 9px;
 }
 
-.small-pictures > *{
+.pictures img{
     cursor: pointer;
 }
 
