@@ -86,6 +86,14 @@ input{
     color: #363837
 }
 
+.mail-and-avatar > *
+{
+    cursor: pointer;
+}
+
+.mail-and-avatar > *:hover{
+    opacity: 0.5;
+}
 /**/
 
 .content .container{
@@ -116,6 +124,14 @@ section{
     gap: 9px;
 }
 
+.small-pictures > img:hover{
+    opacity: 0.2;
+}
+.aside > img:hover
+{
+    opacity: 0.2;
+}
+
 .aside img{
     cursor: pointer;
 }
@@ -127,6 +143,11 @@ section{
     font-size: 16px;
     line-height: 22px;
     color: #030F09;
+    max-height: 81px;
+}
+
+.pic_container:hover{
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
 .pic_container img{
@@ -180,6 +201,14 @@ section{
     text-align: center;
     border: none;
     cursor: pointer;
+}
+
+.button:hover.button.edit{
+    border-bottom: 1px solid;
+}
+
+.button.start:hover{
+    background-color:#41be30;
 }
 
 .button.start{
@@ -278,6 +307,10 @@ li.ingridient{
   .how_to_cook .video img{
       margin: auto;
       cursor: pointer;
+  }
+
+  .how_to_cook .video img:hover{
+      opacity: 0.9;
   }
 
   /**/
